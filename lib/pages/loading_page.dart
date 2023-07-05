@@ -11,6 +11,10 @@ class LoadingPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
+            CircularProgressIndicator(
+              backgroundColor: Colors.white,
+            ),
+            SizedBox(height: 10),
             Text(
               'Carregando...',
               style: TextStyle(
